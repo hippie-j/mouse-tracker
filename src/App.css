@@ -1,0 +1,47 @@
+.title {
+  text-align: center;
+}
+
+.trackerInfo {
+  font-size: 20px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.trackerArea {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  background-color: black;
+}
+
+.beep {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 2px solid red;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.trackerBall {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.clickedBall {
+  position: absolute;
+  border: 2px solid hotpink;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+}
